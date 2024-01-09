@@ -12,6 +12,7 @@ public class Main {
         int number= sc.nextInt();
         System.out.println(pariDispari(number));
         System.out.println("Area Triangolo: "+areaTriangolo(base, altezza));
+        sc.close();
     }
     public static float perimetro(float base, float altezza){
         return base*altezza;
